@@ -1,7 +1,6 @@
 # love calculator
-first_name = input("Ingrese el primer nombre: ")
-second_name = input("Ingrese el segundo nombre: ")
-print(first_name, second_name)
+name1 = input("Ingrese el primer nombre: ")
+name2 = input("Ingrese el segundo nombre: ")
 
 nombres_juntos = name1+name2
 num_true = 0
