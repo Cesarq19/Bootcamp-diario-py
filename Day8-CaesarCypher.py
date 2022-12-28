@@ -28,6 +28,32 @@ def decrypt(text,shift):
                 index = index + 26
             decode_text += alphabet[index]
     print(f"The decoded text is {decode_text}")
+    
+#Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
+def caesar(start_text,shift_amount,direction_program):
+    final_text = ""
+    if direction_program == "encode":
+        for letter in start_text:
+            if not letter in alphabet:
+                final_text += letter
+        else:
+            index = alphabet.index(letter) + shift_amount
+            if index > 25:
+                index = index - 26
+            final_text += alphabet[index]
+        print(f"The encoded text is {final_text}")
+    else:
+        for letter in start_text:
+            if not letter in alphabet:
+                final_text += letter
+        else:
+            index = alphabet.index(letter) - shift_amount
+            if index < 0:
+                index = index + 26
+            final_text += alphabet[index]
+        print(f"The decoded text is {final_text}")
+
+
 
 programa = True
 while programa:
