@@ -31,3 +31,4 @@ while program:
 
 winner_name = max(bids,key=bids.get)
 print(f"The winner is {winner_name} with a bid of ${bids[winner_name]}")
+
