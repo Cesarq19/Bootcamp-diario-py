@@ -1,3 +1,6 @@
 To do:
 * Probar el juego y extraer la estructura basica
-* 
+* Hacer una funcion que retorne dos elegidos de forma aleatoria
+* definir una funcion que reciba la lista y verifique si la opcion es correcta
+* definir una funcion para actualizar la lista
+* definir una funcion para obtener la opcion correcta
