@@ -1,0 +1,3 @@
+To do:
+* Probar el juego y extraer la estructura basica
+* 
