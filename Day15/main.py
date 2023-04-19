@@ -28,9 +28,9 @@ def actual_resources(water, milk, coffee):
         return True
 
 def report():
-    print(f"Water: {resources['water']}")
-    print(f"Milk: {resources['milk']}")
-    print(f"Coffee: {resources['coffee']}")
+    print(f"Water: {resources['water']} ml")
+    print(f"Milk: {resources['milk']} ml")
+    print(f"Coffee: {resources['coffee']} ml")
     print(f"Money: ${money}")
 
 def make_coffee(coffee_kind):
